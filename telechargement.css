@@ -1,0 +1,89 @@
+body{
+    background-color: black;
+    background-image: url(lyralarge.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.image-container {
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+.main{
+    height:20px;
+}
+
+.titre{
+    text-align: center;
+    z-index: 1;
+    color: white;
+    font-size: 90px;
+    font-weight: 900;
+    font-family: monospace;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 3px black;
+}
+
+.texte {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    font-size: 5mm;
+    font-family: monospace;
+    color: white;
+}
+
+.dlbutton{
+    text-decoration: none;
+    margin: auto;
+    display: block;
+    background-color: blue;
+    border-radius: 5px;
+    border: 2px double lightskyblue;
+    text-align: center;
+    padding: 10px;
+    width: 250px;
+    cursor: pointer;
+}
+
+.dlbutton a{
+    color: white;
+    font-size: 20px;
+}
+
+.screens1{
+    display: flex;
+    justify-content: center;
+}
+
+.screens2{
+    display: flex;
+    justify-content: center;
+}
+
+#img3 {
+    margin: 5px; /* Espacement entre les images */
+    width: 2%; 
+}
+
+.images-footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px ;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#img1 {
+    margin: 5px; /* Espacement entre les images */
+    width: 35%; 
+}
